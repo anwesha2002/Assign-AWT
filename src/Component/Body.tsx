@@ -36,7 +36,7 @@ export function Body(){
                         </Navbar.Collapse>
                 </Navbar>
                 {Contentitems.map(items=>(
-                    <Row ><Content img={""} date={""} profilePic={""} views={0} genre={""} location={""} company={""} title={""} name={""} descrip={""} {...items}/></Row>
+                    <Row ><Content img="" date="" profilePic="" views={0} genre="" location="" company="" title="" name="" descrip="" {...items}/></Row>
                 ))}
             </div>
         </>
