@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Sarthak Kamra",
+    "title": "What if famous brands had regular fonts? Meet RegulaBrands!" ,
+    "img": "/Imgs/content1.jpg",
+    "views": 1.4,
+    "descrip" : "I’ve worked in UX for the better part of a decade. From now on, I plan to rei…",
+    "genre" : "✍\uFE0F Article",
+    "profilePic" : "/Imgs/profile1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sarah West",
+    "title": "Tax Benefits for Investment under National Pension Scheme launched by Government" ,
+    "img": "/Imgs/content2.jpg",
+    "views": 1.4,
+    "descrip" : "I’ve worked in UX for the better part of a decade. From now on, I plan to rei…",
+    "genre" : "\uD83D\uDD2C\uFE0F Education",
+    "profilePic" : "/Imgs/profile2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ronal Jones",
+    "title": "Finance & Investment Elite Social Mixer @Lujiazui" ,
+    "img": "/Imgs/content3.jpg",
+    "views": 1.4,
+    "date" : "Fri, 12 Oct, 2018",
+    "location" : "Ahmedabad, India",
+    "genre" : "\uD83D\uDDD3\uFE0F Meetup",
+    "profilePic" : "/Imgs/profile3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Joseph Gray",
+    "title": "Software Developer" ,
+    "views": 1.4,
+    "company" : "Innovaccer Analytics Private Ltd.",
+    "location" : "Noida, India",
+    "genre" : "\uD83D\uDCBC\uFE0F Job",
+    "profilePic" : "/Imgs/profile1.jpg"
+  }
+]

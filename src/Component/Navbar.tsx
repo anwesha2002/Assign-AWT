@@ -2,7 +2,11 @@ import Logo from '../assets/Logo.png'
 import { Container, Nav, Navbar as NavbarBS} from 'react-bootstrap'
 import '../Style/Navbar.css'
 import {FaSearch} from "react-icons/fa";
+import {useState} from "react";
+import {AccountModal} from "./AccountModal.tsx";
 export function Navbar(){
+    const [clicked , setClicked] = useState(false)
+
     return (
         <NavbarBS collapseOnSelect expand="lg" >
             <Container fluid="sm">
@@ -19,12 +23,15 @@ export function Navbar(){
                     </Nav>
                     <Nav>
                         <Nav.Link href="#deets">
-                            Create account.
-                            <span className="text-primary ms-1">It's free</span>
+                            <div onClick={() => setClicked(true)}>Create account. <span className="text-primary ms-1">It's free</span></div>
+
                         </Nav.Link>
                     </Nav>
                 </NavbarBS.Collapse>
             </Container>
+            {clicked &&
+                <AccountModal onDismiss={()=>setClicked(false)}/>
+            }
         </NavbarBS>
     )
 }

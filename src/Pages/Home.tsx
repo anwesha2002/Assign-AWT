@@ -1,6 +1,8 @@
 
 import HomeImage from '../assets/homeImage.jpg'
 import '../Style/Home.css'
+import {Body} from "../Component/Body.tsx";
+import {Container} from "react-bootstrap";
 export function Home(){
     return(
         <>
@@ -9,6 +11,9 @@ export function Home(){
                 <h2 className="lg">Computer Engineering</h2>
                 <p>142,765 Computer Engineers follow this</p>
             </div>
+            <Container fluid="sm">
+                <Body/>
+            </Container>
         </>
     )
 }
