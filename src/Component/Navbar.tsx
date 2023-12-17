@@ -16,9 +16,9 @@ export function Navbar(){
                 <NavbarBS.Toggle aria-controls="responsive-NavbarBS-nav" />
                 <NavbarBS.Collapse id="responsive-NavbarBS-nav">
                     <Nav className="mx-auto">
-                        <Nav.Link href="#features" className="bg-body-secondary rounded-pill flex flex-row align-items-center">
+                        <Nav.Link href="#features" className="bg-body-secondary w-100 rounded-pill d-flex flex-row align-items-center">
                             <FaSearch className="me-2"/>
-                            Search for your favorite groups in ATG
+                            <input className="w-100" style={{border : "none"}}  placeholder="Search for your favorite groups in ATG"/>
                         </Nav.Link>
                     </Nav>
                     <Nav>

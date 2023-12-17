@@ -1,10 +1,20 @@
 import {Button, Card, Dropdown, DropdownToggle} from "react-bootstrap";
-import {ContentModel} from "../model/ContentModel.ts";
 import { FaCalendar, FaEye, FaSuitcase} from "react-icons/fa";
 import { IoShareSocial } from "react-icons/io5";
 import {FaLocationPin} from "react-icons/fa6";
+import {ContentModel} from "../model/ContentModel.ts";
 
-export function Content({ name, views, company, descrip, date, title, img, genre, profilePic, location  } : ContentModel){
+export function Content({ title,
+    name,
+    views,
+    descrip,
+    genre,
+    img,
+    profilePic,
+    date,
+    location,
+    company,} : ContentModel){
+
     return(
         <>
             <Card className="w-75 mt-3 p-0">

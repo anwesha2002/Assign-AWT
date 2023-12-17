@@ -35,8 +35,8 @@ export function Body(){
                             </Nav>
                         </Navbar.Collapse>
                 </Navbar>
-                {Contentitems.map(items=>(
-                    <Row ><Content img="" date="" profilePic="" views={0} genre="" location="" company="" title="" name="" descrip="" {...items}/></Row>
+                {Contentitems.map((items)=>(
+                    <Row><Content key={items.id} {...items}  /></Row>
                 ))}
             </div>
         </>

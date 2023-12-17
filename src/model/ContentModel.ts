@@ -1,12 +1,12 @@
-export interface ContentModel {
+export type ContentModel = {
     title: string,
     name : string,
     views : number,
-    descrip : string,
+    descrip? : string,
     genre : string,
-    img : string,
+    img? : string,
     profilePic : string,
-    date: string,
-    location : string,
-    company : string
+    date?: string,
+    location? : string,
+    company? : string
 }
